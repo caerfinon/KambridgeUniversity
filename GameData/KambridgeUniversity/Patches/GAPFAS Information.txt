@@ -1,0 +1,13 @@
+The Kambridge location is designed for Stock Kerbin deployment only. 
+
+The Runway for the Kambridge site is already included in the GAPFAS Navagation and autopilot patches. 
+If you want to fly GAPFAS missions to and from the Kambridge Airport you will need to add the following site information to your GAPFASContractGroupPatch connfig
+
+
+	siteFullName:	Kambridge
+	siteName:		KBR 	
+	siteLAT:		35.1027908325195
+	siteLON:		9.19531726837158 
+	terminalLAT:	35.0493393090519 
+	terminalLON: 	9.24526667952929
+	siteMultiFlight: (Choose any base index number in your patch file that you want to fly to from Kambridge. Do not choose 0) 
